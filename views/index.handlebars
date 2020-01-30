@@ -25,19 +25,19 @@
 		<div class="jumbotron">
 			<h1>Michael Bernstein</h1>
 			<p>human-computer interaction &middot; social computing &middot; crowdsourcing</p>
-			<ol>
+				<ol>
     			{{#each projects}}
-     			<li><a href="#{{id}}">{{name}}</a></li>
-    			{{/each}}
-    		</ol>
-			{{#each projects}}
-      		<div class="project" id="{{id}}">
-       			<a href="project" class="thumbnail">
-          		<img src="images/{{image}}" ... />
-          	<p>{{name}}</p>
-        		</a>
-        	{{/each}}
-    		</div>
+     				<li><a href="#{{id}}">{{name}}</a></li>
+    				{{/each}}
+    			</ol>
+				{{#each projects}}
+      			<div class="project" id="{{id}}">
+       					<a href="project" class="thumbnail">
+          				<img src="images/{{image}}" ...>
+          					<p>{{name}}</p>
+        				</a>
+    			</div>
+    		{{/each}}
 		</div>
 
 
